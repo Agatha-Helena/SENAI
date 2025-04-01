@@ -1,0 +1,16 @@
+# -*- UTF-8 -*-
+
+cont = 0
+acum = 0
+
+print("Digite valores e no final lhe darei a média e a soma. Digite um valor negativo para sair.")
+while True:
+    valor = float(input("Digite um valor: "))
+    if valor < 0:
+    	print("Você escolheu sair,tchau!")
+    	break
+    acum = acum + valor
+    cont = cont + 1
+    media = acum / cont
+
+print(f"A soma dos valores digitados é de {acum} e a média é de {media %2f}.")

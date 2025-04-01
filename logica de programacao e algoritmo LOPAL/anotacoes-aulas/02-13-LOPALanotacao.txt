@@ -1,0 +1,122 @@
+LOPAL 13/02
+
+OPERADOR ON
+
+- Resulta verdadeiro apenas quando seus dois operadores forem verdadeiros.
+
+ V1|  V2 | V1andV2 |
+ V |  V  |    V    |
+ V |  F  |    F    |
+ F |  V  |    F    |
+ F |  F  |    F    |
+
+OPERADOR OR
+
+- Resulta em falso apenas se seus dois operadores também forem falsos.
+
+ V1|  V2 | V1orV2 |
+ V |  V  |   V    |
+ V |  F  |   V    |
+ F |  V  |   V    |
+ F |  F  |   F    |
+
+ESCRITA DE PYTHON
+
+
+print("Texto")  | (mostra texto)
+
+
+num = variável  | (mostra conta, se for simples)
+num=(valor)
+print(num)
+(resultado automaticamente irá aparecer)
+
+print(num+[valor])
+(resultado)
+ |> para mostrar o valor da soma
+     1 - defina a variável soma
+          |> soma=num+(valor)
+     2 -print("O valor da soma é: ", soma)
+          (resultado)
+
+outro exemplo:
+
+print("O valor da soma é ",soma, "gostou do resultado?")
+(resultado)
+
+
+SAÍDA DE DADOS:
+
+ - Função print()
+     |> Exibe uma mensagem na tela do computador
+>>>print("Hello World!")
+(mensagem)
+
+ENTRADA DE DADOS:
+ - Função input()
+     |> Espera o usuário digitar um texto no teclado e pressionar <ENTER>
+
+>>>nome=input("Informe o seu nome ")
+ Informe o seu nome (Maria [exemplo])
+>>>print(nome)
+ Maria
+
+DICIONÁRIO
+
+int: nº inteiro
+input: colocar algo (digitar)
+" ": fala
+( ): "engloba um comando"
+float: nº quebrado
+
+
+COLOCAR EM BR 
+
+#-*-coding: UTF-8 -*-
+   |> Assim é capaz de digitar acentos e ç 
+   |> Deve ser a primeira coisa a colocar no código
+
+CORES
+
+ variáveis e coisas assim: preto
+ comandos como input, float, int e print: roxo
+ diálogo/fala: verde
+ decisão como else ou or: amarelo
+
+ADIÇÃO E SUBTRAÇÃO
+
+a+=1  é o mesmo que a+1
+  |> Adiciona 1 a (variável)
+a-=1  é o mesmo que a-1
+  |> Subtrai 1 a (variável)
+
+FUNÇÕES MATEMÁTICAS
+
+import math: vai trazer mais códigos matemáticos, é considerado uma biblioteca
+
+# exponenciação
+a=3**2
+print(a)
+
+#radiação
+b=math.sqrt(a)
+print(b)
+
+print(math.pi)
+
+n=0
+print(math.cos(n))
+print(math.sin(n))
+
+ENTRADA DE DADOS COM VÁRIOS TIPOS
+
+nome=input("Digite o seu nome: ")
+idade=input("Digite a sua idade: ")
+print("Nome")
+print("Idade)
+
+QUANTIDADE DE NÚMEROS APÓS A VÍRGULA
+
+(na resposta)
+  |>print("O resultado da média é: %.2f " %[variável])
+

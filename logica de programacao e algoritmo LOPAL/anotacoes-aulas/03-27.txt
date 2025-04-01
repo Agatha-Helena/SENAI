@@ -1,0 +1,14 @@
+LOPAL | 27-03
+
+GIT
+
+- perder arquivos
+- sobrecarregar
+- desorganizado
+- compartilhar
+
+VERSIONAMENTO
+
+- versões do arquivo
+
+GITHUB

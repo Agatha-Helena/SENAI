@@ -1,0 +1,17 @@
+q1 = exibir a quantidade somada de vezes que repetiu
+q2 = for
+q3 = nenhuma das anteriores
+
+q4 = Primeiramente, usei print(" ") para conversar com o usuário e deixá-lo ciente do que o programa vai fazer. Depois criei uma função para validar se um número é ou não é primo, passando por etapas como "if" e "elif", no fim retornando a mensagem de acordo com a etapa que ele pertencesse. Depois da função, escrevi o "Input" para perguntar ao usuário e receber um número inteiro, assim poderia chamar a função e no final dizer se o número era ou não primo.
+
+q5 = Pensei primeiro mais no visual, então fiz a tabela no programa, assim o usuário poderia facilmente consultar e ver o desconto. Após isso, usei a estratégia de seleção do if e elif para conseguir ver a qual grupo da tabela o valor pertencia. Depois dos cálculos do desconto, bastava mostrar para o usuário o valor com o desconto aplicado.
+
+q6 = Contextualizei a situação para o usuário e depois pedi o número, então estabeleci com if e elif o seguinte: caso o número fosse par, eu iria pegar o número e fazer uma segunda "variante" dele, substituir por 0 e somar 1 (poderia apenas ter dito que o valor era 1), assim no "For i in range" eu poderia deixar a estrutura simples do número ir de dois em dois a partir dos números ímpares. Caso o número que o usuário digitou fosse ímpar, eu deixaria do mesmo modo, porém, na segunda "casa" do "For i in range", eu teria que colocar o número que o usuário pediu e somar 1, assim o programa também incluiria o número ímpar colocado pelo usuário.
+
+q7 = Primeiramente, pensei em informar ao usuário o que o programa vai fazer e depois criei uma função para selecionar os valores e ver se eles eram iguais ou não. Simplesmente, se fossem iguais, o triângulo seria equilátero, caso contrário, não. Então na resposta coloquei isso e usei :.2f para caso o usuário desejasse usar números decimais, então não iriam aparecer muitas casas após a vírgula, apenas duas.
+
+q8 = Informei ao usuário o que o programa iria fazer, após isso pedi ao usuário o número. Caso fosse menor que zero, ele teria apenas 1 número positivo (que seria o 0), caso fosse maior que 0, eu simplesmente utilizei o próprio número que o usuário digitou e somei 1, já que no programa 0 é considerado positivo.
+
+q9 = Utilizando a mesma base do exercício 7, informei ao usuário para quee o programa iria ser utilizado e perguntei os lados. Dentro da função, coloquei que se os valores forem todos diferentes, o triângulo era escaleno, caso contrário, não.
+
+q10 = Pedi ao usuário muitas informações depois de ter explicado o objetivo do programa. Pedi o valor inicial, a taxa de juros e a quantidade de períodos. Com isso, criei uma função e coloquei a fórmula lá. No fim, coloquei usando o f string, o valor total com apenas duas casas após a vírgula.

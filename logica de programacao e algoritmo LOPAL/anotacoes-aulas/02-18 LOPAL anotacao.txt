@@ -1,0 +1,17 @@
+18-02 LOPAL
+
+ %i : posição onde a resposta do cálculo aparece, mas apenas se você colocar % antes da variável
+
+ex:
+
+print(" %i a resposta é: %i " %(soma, num)
+
+também há a separação de variável em chaves
+
+ex:
+
+{num} e {soma}
+
+exemplo no "python-exercicio9"
+
+

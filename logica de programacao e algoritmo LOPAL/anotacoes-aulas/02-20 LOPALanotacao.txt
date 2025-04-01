@@ -1,0 +1,136 @@
+# Lógica de programação e algoritmo.
+
+## Estruturas de repetição:
+
+ - while
+ - for
+
+-exemplos
+-exercícios
+
+## while
+
+while <condição>:
+    bloco de código
+
+condição: condição a ser avaliada
+
+ EX:
+
+x =1
+while x <= 3:
+    print(x)
+    x = x + 1
+
+------------------------------
+
+x = x + 1 
+mesma coisa que
+x += 1
+------------------------------
+
+fim = int(input("Digite o último número a imprimir:"))
+x = 1
+while x <= fim:
+    print(x)
+    x = x + 1
+
+"se x=0, então while x<fim"
+------------------------------
+com if:
+
+fim = int(input("Digite o último número a imprimir:"))
+x = 0
+while x <= fim:
+    if x % 2 == 0:
+        print(x)
+        x = x + 2
+------------------------------
+sem if:
+
+fim = int(input("Digite o último número a imprimir:"))
+x = 0
+while x <= fim:
+    x % 2 == 0:
+    print(x)
+    x = x + 2
+------------------------------
+múltiplos de 3
+
+x = 1
+while x <= 50:
+    if x % 3 == 0:
+    print(x)
+    x = x + 1
+
+## acumulador
+
+x = 1
+ soma = 0
+ while x <=5:
+     n = int(input("%d Digite o número: " % x))
+     soma = soma + n
+     x = x + 1
+print ("Média: %5.2f" % (soma/5))
+-----------------------------
+n = 1
+soma = 0
+while n <=10:
+     x = int(input("Digite o %dº número: " % n))
+     soma = soma + n
+     n = n + 1
+print ("Soma: %d" % soma)
+-----------------------------
+%d é a mesma coisa que %i
+%.2f é 2 casas depois da vírgula
+%5.2f é 5 casas antes da vírgula e 2 depois da vírgula
+
+## while true
+
+s = 0
+while True:
+    v = int(input("Digite um número a somar ou 0 para sair: "))
+    if v == 0:
+        break
+    s = s + v
+print(s)
+-------------------------------
+# -*- UTF-8 -*-
+
+cont = 0
+acum = 0
+
+while True:
+    valor = float(input("Digite valores e no final lhe darei a média. Digite valor negativo para sair: "))
+    if valor < 0:
+    	print("Você escolheu sair,tchau!")
+	break
+    acum = acum + valor
+    cont = cont + 1
+
+print("A média dos valores digitados é de : ", acum / cont)
+
+## for
+
+for v in range(argumento(s)):
+    bloco de código
+
+v = um nome de variável
+range(argumento(s)) = função para gerar valores com até três inteiros passados a ela.
+-----------------------------
+Ex:range(fim)
+
+for v in range(10):
+    print(v)
+-----------------------------
+for v in range(5, 10):
+    print(v)
+-----------------------------
+for v in range(0, 11, 2):
+    print(v)
+
+onde
+0 = começo
+11 = até onde vai
+2 = de quanto em quanto
+-----------------------------

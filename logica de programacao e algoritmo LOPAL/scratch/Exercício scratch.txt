@@ -1,0 +1,10 @@
+1) programa que repita sempre
+pedir temperatura do dia e dizer como o clima está
+
+frio: temp < 20 graus
+quente: temp > 30 graus
+amenos: temp entre 20 e 30 graus
+O programa deve parar quando receber a letra S
+
+2) programa que receba 5 salários e vá acumulando
+entrega o valor da soma dos salários

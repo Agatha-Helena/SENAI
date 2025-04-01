@@ -1,0 +1,71 @@
+# Conteúdo programático 1ºsemestre
+
+-linguagem Python
+-variáveis, operadores, entrada e saída de dados
+-estruturas seleção
+-estruturas repetição
+-listas
+-funções
+-trabalhando com strings
+
+## Principais características (Python)
+
+-Legível (não misturar Tabs e espaço)
+-Multiplataforma (Windows, Linux/Unix, MacOS)
+-Tipagem forte e dinâmica: é possível atribuir 
+qualquer tipo de valor a uma variável e em qualquer
+momento do código fonte.
+-Multiparadigma: estruturado, funcional e orientado
+a objetos
+-Usada em várias aplicações: desktop, web, mobile,
+sistemas embarcados, 3D
+-Diferencia maiúsculas de minúsculas.
+
+## Instalação de Python
+-Marque a opção "Add Python 3.6 to PATH" e escolha
+"Customize installation".
+-Abrir o IDLE Python
+-Testar o comando --> print("Hello, world")
+
+## Nomes de variáveis
+
+-Iniciar obrigatoriamente com uma letra
+-Pode conter números e _
+-Permite utilização de acentos (conjunto de caracteres
+chamado UTF-8), a partir da versão 3. (preferencial-
+mente, nao ter acento e letra maiúscula)
+
+##Tipos de dados
+
+-numéricos
+  I. inteiros (1, 2, 3, -1, -2, -3)
+  II. ponto flutuante (1.33, 3.14, -1.55, -4.45)
+-lógico ou booleano
+  I. true para verdadeiro
+  II. false para falso
+-string
+  I. s="abc" ou s='abc'
+-listas
+-tuplas
+-dicionários
+
+## Operadores aritméticos
+
+- + adição
+- - subtração
+- * multiplicação
+- / divisão
+- // divisão de inteiros (sempre trás resposta inteira)
+- ** potenciação
+- % módulo (resto da divisão inteira)
+(as regras matemáticas também valem aqui, como o
+uso de parenteses)
+
+## Operadores relacionais
+
+- == igualdade
+- > maior que
+- < menor que
+- != diferente
+- >= maior ou igual
+- <= menor ou igual
